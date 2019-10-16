@@ -34,10 +34,11 @@ public class Lab3 {
 			System.out.print("Continue? (y/n) ");
 			userInput = scan.next();
 			System.out.println();
+			scan.close();
 
 		} while (!userInput.equalsIgnoreCase("N"));
-			
 		System.out.println("Goodbye!");
-
+		
 	}
+
 }
